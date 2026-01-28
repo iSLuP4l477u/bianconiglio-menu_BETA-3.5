@@ -389,3 +389,29 @@ footer{
   0%{ transform: translateX(-140%); }
   100%{ transform: translateX(260%); }
 }
+
+/* FIX mobile: blocca scroll laterale */
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*{
+  max-width: 100%;
+}
+
+img, svg{
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap,
+.heroCard,
+.qrBox,
+.grid{
+  width: 100%;
+  min-width: 0;
+}
+
+
+
