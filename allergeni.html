@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elenco allergeni alimentari - Bianconiglio Wine Bar & Local Food">
+  <title>Allergeni • Bianconiglio Wine Bar & Local Food</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <svg class="svgFilter" aria-hidden="true">
+    <filter id="glass-distortion">
+      <feTurbulence type="turbulence" baseFrequency="0.008" numOctaves="2" result="noise"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="65"></feDisplacementMap>
+    </filter>
+  </svg>
+
+  <div id="preloader" aria-label="Caricamento sito">
+    <div class="preloaderCard">
+      <img src="logo.svg" alt="Logo Bianconiglio" class="preloaderLogo">
+      <div class="preloaderLine"></div>
+    </div>
+  </div>
+
+  <div id="app" class="appHidden">
+
+    <header class="siteHeader" id="siteHeader">
+      <div class="container navBar glassCard glassInteractive">
+        <a href="index.html" class="brand">
+          <div class="brandLogo">
+            <img src="logo.svg" alt="Bianconiglio Wine Bar & Local Food">
+          </div>
+          <div class="brandText">
+            <strong>Bianconiglio Wine Bar & Local Food</strong>
+            <span>Allergeni</span>
+          </div>
+        </a>
+
+        <nav class="navLinks">
+          <a href="index.html" class="navLink">Home</a>
+          <a href="menu.html" class="navLink">Menù</a>
+          <a href="#allergeni" class="navLink">Allergeni</a>
+          <a href="https://www.instagram.com/bianconigliowinebar2.0/" target="_blank" class="navLink instagramLink">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+        </nav>
+
+        <button class="menuToggle" id="menuToggle" aria-label="Apri menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="mobileMenu glassCard" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menù</a>
+        <a href="#allergeni">Allergeni</a>
+        <a href="https://www.instagram.com/bianconigliowinebar2.0/" target="_blank">Instagram</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="menuSection container" id="allergeni" style="padding-top:34px;">
+        <div class="sectionHeading reveal">
+          <p class="eyebrow">Informazioni alimentari</p>
+          <h2>Elenco dei 14 allergeni</h2>
+          <p>Per dubbi o esigenze specifiche chiedi sempre al personale prima di ordinare.</p>
+        </div>
+
+        <div class="allergenGrid">
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Arachidi e derivati</h3>
+              <p>Snack confezionati, creme e condimenti in cui vi sia anche in piccole dosi.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Crostacei</h3>
+              <p>Marini e d’acqua dolce: gamberi, scampi, aragoste, granchi e simili.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Frutta a guscio</h3>
+              <p>Mandorle, nocciole, noci comuni, noci di acagiù, noci pecan, anacardi e pistacchi.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Glutine</h3>
+              <p>Cereali come grano, segale, orzo, avena, farro, kamut, inclusi ibridati derivati.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Latte e derivati</h3>
+              <p>Ogni prodotto in cui viene usato il latte: yogurt, biscotti, torte, gelato e creme varie.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Lupini</h3>
+              <p>Presenti in cibi vegani sotto forma di arrosti, salamini, farine e simili.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Molluschi</h3>
+              <p>Canestrello, cannolicchio, capasanta, cozza, ostrica, patella, vongola, tellina e simili.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Senape</h3>
+              <p>Si può trovare nelle salse e nei condimenti, specie nella mostarda.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Pesce</h3>
+              <p>Prodotti alimentari in cui è presente il pesce, anche se in piccole percentuali.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Sedano</h3>
+              <p>Sia in pezzi che all’interno di preparati per zuppe, salse e concentrati vegetali.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Sesamo</h3>
+              <p>Semi interi usati per il pane, farine anche se lo contengono in minima percentuale.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Anidride solforosa e solfiti</h3>
+              <p>Cibi sott’aceto, sott’olio e in salamoia, marmellate, funghi secchi, conserve e simili.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Soia</h3>
+              <p>Prodotti derivati come latte di soia, tofu, spaghetti di soia e simili.</p>
+            </div>
+          </article>
+
+          <article class="allergenCard glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+            <div class="glassContent">
+              <h3>Uova e derivati</h3>
+              <p>Uova e prodotti che le contengono come maionese, emulsionanti e pasta all’uovo.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menuNotice glassCard reveal" style="margin-top:18px;">
+          <div class="glassFilter"></div>
+          <div class="glassOverlay"></div>
+          <div class="glassSpecular"></div>
+
+          <div class="glassContent">
+            <strong>Nota importante:</strong> le informazioni sugli allergeni sono indicative.
+            In caso di allergie, intolleranze o esigenze specifiche, informa sempre il personale prima dell’ordinazione.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="siteFooter container">
+      <div class="footerCard glassCard reveal">
+        <div class="glassFilter"></div>
+        <div class="glassOverlay"></div>
+        <div class="glassSpecular"></div>
+
+        <div class="glassContent footerContent">
+          <p>© <span id="year"></span> Bianconiglio Wine Bar & Local Food</p>
+          <a href="menu.html" class="btn btnGlass">Torna al menù</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
