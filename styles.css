@@ -872,3 +872,123 @@ a{
   color:var(--muted);
   font-size:14px;
 }
+
+/* HERO MENU UNIFICATA */
+.heroSingle{
+  min-width:0;
+}
+
+.heroSingleContent{
+  min-height:320px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.categoryQuickLinks{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:20px;
+}
+
+.categoryBtn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:48px;
+  padding:12px 18px;
+  border-radius:16px;
+  font-weight:700;
+  border:1px solid rgba(255,255,255,.14);
+  color:#fff;
+  background:rgba(255,255,255,.08);
+  transition:transform .22s ease, background .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+
+.categoryBtn:hover{
+  transform:translateY(-2px);
+}
+
+.categoryBtn.active{
+  color:#fff;
+  box-shadow:0 10px 24px rgba(0,0,0,.24);
+}
+
+/* COLORI DIVERSI PER CATEGORIA */
+.category-drink{
+  background:rgba(220, 70, 70, .22);
+  border-color:rgba(220, 70, 70, .45);
+}
+.category-drink.active{
+  background:rgba(220, 70, 70, .85);
+}
+
+.category-vini{
+  background:rgba(120, 40, 80, .22);
+  border-color:rgba(120, 40, 80, .45);
+}
+.category-vini.active{
+  background:rgba(120, 40, 80, .88);
+}
+
+.category-birre{
+  background:rgba(184, 120, 20, .22);
+  border-color:rgba(184, 120, 20, .45);
+}
+.category-birre.active{
+  background:rgba(184, 120, 20, .88);
+}
+
+.category-caffe{
+  background:rgba(110, 75, 55, .24);
+  border-color:rgba(110, 75, 55, .45);
+}
+.category-caffe.active{
+  background:rgba(110, 75, 55, .88);
+}
+
+.category-food{
+  background:rgba(40, 130, 90, .22);
+  border-color:rgba(40, 130, 90, .45);
+}
+.category-food.active{
+  background:rgba(40, 130, 90, .88);
+}
+
+/* TASTO RITORNO CATEGORIE */
+.subCategoryBack{
+  margin-top:16px;
+  padding-top:12px;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+
+.backToCategories{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:40px;
+  padding:10px 14px;
+  border-radius:12px;
+  font-size:13px;
+  font-weight:600;
+  color:#fff;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.12);
+  transition:all .22s ease;
+}
+
+.backToCategories:hover{
+  background:rgba(255,255,255,.18);
+  transform:translateY(-1px);
+}
+
+@media (max-width: 640px){
+  .categoryQuickLinks{
+    flex-direction:column;
+  }
+
+  .categoryBtn{
+    width:100%;
+  }
+}
